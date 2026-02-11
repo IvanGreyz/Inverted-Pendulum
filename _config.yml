@@ -1,0 +1,13 @@
+title: "My Notes"
+description: "Docs + Math"
+theme: null
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+# (khuyến nghị) để URL đúng khi repo là project site
+# baseurl: "/TEN-REPO"
+
+# Bật toán (Just the Docs hỗ trợ KaTeX/MathJax qua JS)
+# Mỗi trang có thể dùng: math: katex  hoặc  math: mathjax
