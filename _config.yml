@@ -2,6 +2,7 @@ title: "My Notes"
 description: "Docs + Math"
 theme: null
 remote_theme: just-the-docs/just-the-docs
+math: katex
 
 plugins:
   - jekyll-remote-theme
