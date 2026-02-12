@@ -20,7 +20,7 @@ For simulation, parameters  are numerically assigned:
 
 | Parameter | Value | Unit |
 |:---------:|------:|:----:|
-| $M$       | 2.4   | kg   |
-| $m$       | 0.23  | kg   |
-| $l$       | 0.36  | m    |
-| $g$       | 9.8   | m/s$^2$ |
+| $M$       | 2.4   | $kg$ |
+| $m$       | 0.23  | $kg$ |
+| $l$       | 0.36  | $m$  |
+| $g$       | 9.8   | $m/s^2$ |
