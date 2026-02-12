@@ -6,14 +6,14 @@ math: katex
 ---
 
 ---
-# **1. Modeling**
+# **Modeling**
 ---
 
 In this section, a model descript from real inverted pendulum is contructed.
 
 
-## 1.1. Free-cut method
+## Free-cut method
 
-## 1.2. Projected Newton-Euler method
+## Projected Newton-Euler method
 
-## 1.3. Laragange method
+## Laragange method
