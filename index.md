@@ -5,11 +5,7 @@ nav_order: 1
 math: katex
 ---
 
----
-
 # **Inverted Pendulum**
-
----
 
 This is a project from class Introduction to Modern control in Ho Chi Minh University - University of Technology.
 
