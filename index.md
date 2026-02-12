@@ -12,7 +12,11 @@ This is a project from class Introduction to Modern control in Ho Chi Minh Unive
 
 ![Cart Pole]({{ site.baseurl }}/assets/img/InvertedPendulum.png)
 
+The cart has weight $M$.
 
+The pole has weight $m$ and rod's length $l$. 
+
+Cart's position is denoted by $\vec{x}$. Pole's position is denoted by $\vec{x}_p$, $\vec{y}_p$. The angle from 
 
 Inline: $ \dot{x} = Ax + Bu $
 
