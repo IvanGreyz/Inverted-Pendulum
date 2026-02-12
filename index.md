@@ -10,6 +10,8 @@ nav_order: 1
 
 This is a project from class Introduction to Modern control in Ho Chi Minh University - University of Technology.
 
+![Cart Pole]({{ site.baseurl }}/assets/img/InvertedPendulum.png)
+
 
 Inline: $ \dot{x} = Ax + Bu $
 
