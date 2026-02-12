@@ -13,6 +13,7 @@ This is a project from class Introduction to Modern control in Ho Chi Minh Unive
 ![Cart Pole]({{ site.baseurl }}/assets/img/InvertedPendulum.png)
 
 
+
 Inline: $ \dot{x} = Ax + Bu $
 
 Block:
