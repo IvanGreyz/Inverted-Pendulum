@@ -4,7 +4,12 @@ layout: default
 nav_order: 1
 ---
 
-# My Notes
+---
+# **Inverted Pendulum**
+---
+
+This is a project from class Introduction to Modern control in Ho Chi Minh University - University of Technology.
+
 
 Inline: $ \dot{x} = Ax + Bu $
 

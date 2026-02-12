@@ -6,6 +6,7 @@ math: katex
 
 plugins:
   - jekyll-remote-theme
+baseurl: "/Inverted-Pendulum"
 
 # (khuyến nghị) để URL đúng khi repo là project site
 # baseurl: "/TEN-REPO"
