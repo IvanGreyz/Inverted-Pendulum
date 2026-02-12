@@ -2,6 +2,7 @@
 title: Home
 layout: default
 nav_order: 1
+math: katex
 ---
 
 ---
@@ -20,8 +21,12 @@ Cart's position is denoted by $\vec{x}$. Pole's position is denoted by $\vec{x}_
 
 For simulation, parameters  are numerically assigned:
 
+<p align="center"><i>
+Table of Parameters
+</i></p>
+
 | Parameter | Value | Unit |
-|:---------:|------:|:----:|
+|:---------:|:-----:|:----:|
 | $M$       | 2.4   | $kg$ |
 | $m$       | 0.23  | $kg$ |
 | $l$       | 0.36  | $m$  |
