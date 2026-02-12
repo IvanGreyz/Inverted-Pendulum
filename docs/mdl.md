@@ -15,7 +15,9 @@ In this section, a model descript from real inverted pendulum is contructed.
 
 
 ## Free-cut method
-![Cart Pole]({{ site.baseurl }}../assets/img/Free-cut.png)
+![Free-cut]({{ site.baseurl }}../assets/img/Free-cut.png)
+
+From the draft
 
 ## Projected Newton-Euler method
 
