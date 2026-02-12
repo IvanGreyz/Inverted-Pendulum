@@ -11,11 +11,11 @@ math: katex
 
 In this section, a model descript from real inverted pendulum is contructed.
 
-![Cart Pole]({{ site.baseurl }}../assets/img/InvertedPendulum.png)
+![Cart Pole]({{ site.baseurl }}/assets/img/InvertedPendulum.png)
 
 
 ## Free-cut method
-![Free-cut]({{ site.baseurl }}../assets/img/Free-cut.png)
+![Free-cut]({{ site.baseurl }}/assets/img/Free-cut.png)
 
 From the draft
 
