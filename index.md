@@ -17,9 +17,8 @@ Cart's position is denoted by $\vec{x}$. Pole's position is denoted by $\vec{x}_
 
 For simulation, parameters  are numerically assigned:
 
-<p align="center"><i>
-Table of Parameters
-</i></p>
+{: .text-center}
+*Table of Parameters*
 
 | Parameter | Value | Unit |
 |:---------:|:-----:|:----:|
