@@ -1,9 +1,12 @@
 ---
 title: Modeling
 layout: default
-nav_order: 2
+parent: Model
+nav_order: 1
+permalink: /model/modeling/
 math: katex
 ---
+
 
 # **Modeling**
 
