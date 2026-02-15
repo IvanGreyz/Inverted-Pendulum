@@ -23,7 +23,7 @@ By experiment, with no external force, the pendulum show that it oscillates arou
 
 Consider there is no loss and no drive force. Call $x_c, y_c$ is the center of gravity position. By the conservation of mometum law:
 
-$$ \frac{d}{dt}p_c = \sum{F_{ext}} = N $$
+$$ \frac{d}{dt}p_c = \sum{\vec{F}_{ext}} = \vec{N} $$
 
 $$
     \rightarrow
@@ -37,7 +37,7 @@ $$
 
 Analysis 
 
-Decomposite $\vec{p}_{x_c}$ into $\vec{p}_{x}$ and $\vec{p}_{x_p}$:
+Decomposite  $\vec{p}_{x_c}$  into  $\vec{p}_{x}$  and   $\vec{p}_{x_p}$:
 
 $$  \vec{p}_{x_c}(t) = \vec{p}_x + \vec{p}_{x_p} = 0 $$ 
 
