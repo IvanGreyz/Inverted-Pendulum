@@ -17,7 +17,6 @@ By experiment, with no external force, the pendulum show that it oscillates arou
 > 3. In a period, the pole reach $H_{max}$ twice. Time for pole to reach next $H_{max}$ is constant.
 > 4. The pole reach $V_{max}$ when pole at $H_{min}$ and $v=0$ when reach $H_{max}$.
 
-
 ## **Center of Gravity**
 
 Consider there is no loss and no drive force. Call $x_c, y_c$ is the center of gravity position. By the conservation of mometum law:
