@@ -66,7 +66,7 @@ The torque formula:
 
 $$\sum{\tau} = \frac{d\vec{H}}{dt} + \vec{v} \times \vec{R}_{CP}$$
 
-Where $\frac{d\vec{H}}{dt}$ is the time rate change of angular momentum of pole rod, $\vec{v} \times \vec{R}_{CP}$ is the time rate change of angular momentum of pole rod causing by cart motion, $\vec{v}$ is the velocity of cart and $\vec{R}_{CP}$ is the displacement vector from cart to pole.
+Where $\frac{d\vec{H}}{dt}$ is the time rate change of angular momentum of pole rod, $ \vec{v} \times \vec{R}_{CP} $ is the time rate change of angular momentum of pole rod causing by cart motion, $\vec{v}$ is the velocity of cart and $\vec{R}_{CP}$ is the displacement vector from cart to pole.
 
 Due to assumpsion that the rod is  as no weight and the pole is a particle, hence $\frac{d\vec{H}}{dt} = 0$. The torque equation is:
 
@@ -99,7 +99,7 @@ $$
 
 By transform the equations of motion from **Cart model, Pole model** and **Kinetics relation**, the equations of motion descripe the $\ddot{x}$ motion and $\ddot{\theta}$ motion is:
 
-$$\boxed{\ddot{x} = \frac{ml(sin(\theta)\dot{\theta} - mgcos(\theta)sin(\theta)+u)}{M+msin(\theta)^2}}$$
+$$\boxed{\ddot{x} = \frac{mlsin(\theta)\dot{\theta} - mgcos(\theta)sin(\theta)+u}{M+msin(\theta)^2}}$$
 
 $$\boxed{\ddot{\theta} = \frac{ml(cos(\theta))sin(\theta)\dot{\theta} - (M+m)gsin(\theta) + ucos(\theta) }{mlcos(\theta)^2-(M+m)l}}$$
 
