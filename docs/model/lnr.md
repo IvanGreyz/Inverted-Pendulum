@@ -115,10 +115,10 @@ Expand Jacobian matrix at $x_0$:
 $$
 \frac{Df}{Dx} = 
     \begin{bmatrix}
-        \frac{d}{dx}f_1 & \frac{d}{d\dot{x}}f_1 & \frac{d}{d\theta}f_1 & \frac{d}{\dot{\theta}}f_1  \\
-        \frac{d}{dx}f_2 & \frac{d}{d\dot{x}}f_2 & \frac{d}{d\theta}f_2 & \frac{d}{\dot{\theta}}f_2  \\
-        \frac{d}{dx}f_3 & \frac{d}{d\dot{x}}f_3 & \frac{d}{d\theta}f_3 & \frac{d}{\dot{\theta}}f_3  \\
-        \frac{d}{dx}f_4 & \frac{d}{d\dot{x}}f_4 & \frac{d}{d\theta}f_4 & \frac{d}{\dot{\theta}}f_4
+        \frac{d}{dx}f_1 & \frac{d}{d\dot{x}}f_1 & \frac{d}{d\theta}f_1 & \frac{d}{\dot{d\theta}}f_1  \\
+        \frac{d}{dx}f_2 & \frac{d}{d\dot{x}}f_2 & \frac{d}{d\theta}f_2 & \frac{d}{\dot{d\theta}}f_2  \\
+        \frac{d}{dx}f_3 & \frac{d}{d\dot{x}}f_3 & \frac{d}{d\theta}f_3 & \frac{d}{\dot{d\theta}}f_3  \\
+        \frac{d}{dx}f_4 & \frac{d}{d\dot{x}}f_4 & \frac{d}{d\theta}f_4 & \frac{d}{\dot{d\theta}}f_4
     \end{bmatrix} =
     \begin{bmatrix}
         0 & 1 & 0 & 0 \\
