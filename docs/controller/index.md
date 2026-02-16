@@ -1,10 +1,10 @@
 ---
-title: Model
+title: Controller
 layout: default
 has_children: true
 nav_order: 2
-permalink: /model/
+permalink: /controller/
 math: katex
 ---
 
-Modelling system
+Design a controller

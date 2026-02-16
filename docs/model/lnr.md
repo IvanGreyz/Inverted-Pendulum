@@ -1,5 +1,5 @@
 ---
-title: Modeling
+title: Linearization
 layout: default
 parent: Model
 nav_order: 3
@@ -104,7 +104,7 @@ $$
 
 ## **3. Linearize system**
 
-Consider $x_0 = \overline{x}$, $x = x_0 + \delta{x}$, expand first-order Taylor Series near fixed point $\overline{x}$:
+Consider $x_0 = \overline{x}$, $u_0 = 0$, $x = x_0 + \delta{x}$, $u = u_0 + \delta{u}$, expand first-order Taylor Series near fixed point $\overline{x}$:
 
 $$
     \delta{\dot{x}} = f(x,u,t) = f(x_0+\delta{x},u,t)\approx \frac{Df}{Dx}(x_0,u,t)\delta{x} + \frac{Df}{Du}(\overline{x},u,t)\delta{u} = A\delta{x} + B\delta{u}
@@ -123,7 +123,7 @@ $$
     \begin{bmatrix}
         0 & 1 & 0 & 0 \\
         0 & 0 & -\frac{mg}{M} & 0 \\
-        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 1 \\
         0 & 0 & \frac{M+m}{Ml} & 0 
     \end{bmatrix}
 $$
@@ -151,7 +151,7 @@ $$
     \begin{bmatrix}
         0 & 1 & 0 & 0 \\
         0 & 0 & -\frac{mg}{M} & 0 \\
-        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 1 \\
         0 & 0 & \frac{M+m}{Ml} & 0 
     \end{bmatrix}\delta{x} + 
     \begin{bmatrix}
@@ -160,12 +160,32 @@ $$
         0 \\
         -\frac{1}{Ml}
     \end{bmatrix}\delta{u} \\
-    y = Cx = 
+    y = C\delta{x} = 
     \begin{bmatrix}
         1&0&0&0\\
         0&0&1&0
-    \end{bmatrix}
+    \end{bmatrix}\delta{x}
+$$
+
+Substitude $M=2.4$, $m=0.23$, $l=0.36$ and $g=9.8$ to state-space:
+
+$$
+\delta{\dot{x}} = 
     \begin{bmatrix}
-            x \\ \dot{x} \\ \theta \\ \dot{\theta} 
-    \end{bmatrix}
+        0 & 1 & 0 & 0 \\
+        0 & 0 & -\frac{1127}{1200} & 0 \\
+        0 & 0 & 0 & 1 \\
+        0 & 0 & \frac{263}{8640} & 0 
+    \end{bmatrix}\delta{x} + 
+    \begin{bmatrix}
+        0 \\
+        \frac{5}{12} \\
+        0 \\
+        -\frac{125}{108}
+    \end{bmatrix}\delta{u} \\
+    y = C\delta{x} = 
+    \begin{bmatrix}
+        1&0&0&0\\
+        0&0&1&0
+    \end{bmatrix}\delta{x}
 $$
