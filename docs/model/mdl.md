@@ -7,7 +7,6 @@ permalink: /model/modeling/
 math: katex
 ---
 
-
 # **Modeling**
 
 In this section, a model descript from real inverted pendulum is contructed.
@@ -17,7 +16,7 @@ In this section, a model descript from real inverted pendulum is contructed.
 {: .text-center}
 *Figure 1.1. Inverted Pendulum*
 
-## Free-cut method
+## 1. Free-cut method
 ![Free-cut]({{ site.baseurl }}/assets/img/Free-cut.png)
 
 {: .text-center}
@@ -107,6 +106,6 @@ $$\boxed{\ddot{x} = \frac{mlsin(\theta)\dot{\theta} - mgcos(\theta)sin(\theta)+u
 $$\boxed{\ddot{\theta} = \frac{ml(cos(\theta))sin(\theta)\dot{\theta} - (M+m)gsin(\theta) + ucos(\theta) }{mlcos(\theta)^2-(M+m)l}}$$
 
 
-## Projected Newton-Euler method
+## 2. Projected Newton-Euler method
 
-## Larange method
+## 3. Larange method
