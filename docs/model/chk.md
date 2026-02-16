@@ -1,9 +1,9 @@
 ---
-title: Modeling Check
+title: Modeling Verification
 layout: default
 parent: Model
 nav_order: 2
-permalink: /model/modeling-check/
+permalink: /model/modeling-verification/
 math: katex
 ---
 

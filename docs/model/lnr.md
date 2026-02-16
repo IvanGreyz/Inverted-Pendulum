@@ -7,9 +7,7 @@ permalink: /model/linearize/
 math: katex
 ---
 
-***
 # **Linearization**
-***
 
 For evaluating the system as well as design controllers to archive the desired purpose, the model should be linearize for applying classical methods  
 
@@ -113,7 +111,7 @@ $$
 Expand Jacobian matrix at $x_0$:
 
 $$
-\frac{Df}{Dx} = 
+\frac{Df}{Dx}(x_0,u,t) = 
     \begin{bmatrix}
         \frac{d}{dx}f_1 & \frac{d}{d\dot{x}}f_1 & \frac{d}{d\theta}f_1 & \frac{d}{\dot{d\theta}}f_1  \\
         \frac{d}{dx}f_2 & \frac{d}{d\dot{x}}f_2 & \frac{d}{d\theta}f_2 & \frac{d}{\dot{d\theta}}f_2  \\
@@ -129,7 +127,7 @@ $$
 $$
 
 $$
-\frac{Df}{Du} =
+\frac{Df}{Du}(x_0,u,t) =
     \begin{bmatrix}
         \frac{d}{du}f_1 \\
         \frac{d}{du}f_2 \\
